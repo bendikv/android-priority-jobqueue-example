@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/row"
+    app:contentPaddingBottom="8dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="1dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/card_background"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:text="News title"
+            android:id="@+id/text_view_title"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:paddingTop="4dp"
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+            android:text="News date"
+            tools:ignore="HardcodedText"
+            android:id="@+id/text_view_date"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

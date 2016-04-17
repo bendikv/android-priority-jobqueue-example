@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Тинькофф Новости</string>
+    <string name="server_connecting">Загрузка...</string>
+    <string name="data_is_empty">Нет данных</string>
+    <string name="retry">Повторить</string>
+    <string name="server_error">Ошибка на сервере</string>
+    <string name="loading_failed">Не удалось обновить данные</string>
+</resources>
